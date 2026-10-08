@@ -1,0 +1,37 @@
+#p1{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+}
+
+#counter{
+    text-align: center;
+    font-size: 5em;
+}
+#decrease,#increase,#reset{
+    text-align: center;
+    margin: 10px;
+    font-size: 3em;
+    border-radius: 5px;
+    border-color: hsla(240, 100%, 50%, 0.266);
+    background-color: rgba(0, 183, 255, 0.722);
+}
+#button-container{
+    text-align: center;
+}
+#decrease:hover,#increase:hover,#reset:hover {
+    text-align: center;
+    margin: 10px;
+    font-size: 3em;
+    border-radius: 5px;
+    border-color: hsla(240, 100%, 50%, 0.489);
+    background-color: rgb(0, 183, 255);
+}
+#decrease:active,#increase:active,#reset:active{
+    text-align: center;
+    margin: 10px;
+    font-size: 3em;
+    border-radius: 5px;
+    border-color: hsla(240, 100%, 50%, 0.489);
+    background-color: rgb(0, 128, 255);
+}
